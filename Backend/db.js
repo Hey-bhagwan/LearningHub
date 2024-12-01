@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://ayushupa29:chutiyaaa@cluster0.80prm.mongodb.net/LearningHub");
+mongoose.connect("");
 
 const userSchema = new mongoose.Schema({
     name: {
